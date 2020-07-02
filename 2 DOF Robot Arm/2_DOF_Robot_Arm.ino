@@ -57,7 +57,7 @@ if (calculate==1){
    Serial.println(y_coor);
   }
     
-else if (calculate==10){}
+else if (calculate==10){
   Serial.println("Enter the 1st length L1: ");
   while (Serial.available()==0){}
   L1=Serial.parseFloat();
@@ -87,6 +87,7 @@ else if (calculate==10){}
   Serial.print("the 1st angle= ");
   theta_1=theta-theta_2;
   Serial.println(theta_1);
+}
 }
 
 void loop()
